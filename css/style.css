@@ -1,0 +1,98 @@
+/* Fonts */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:400,700|Poppins:700');
+
+/* Fontawesome */
+@import url('https://use.fontawesome.com/releases/v5.6.3/css/all.css');
+
+/* Utilities */
+body {
+  margin: 0;
+  font-family: Open Sans;
+}
+
+h1, h2, h3, h4 {
+  font-family: Poppins;
+  text-align: center;
+}
+
+h2, h3, h4 {
+  color: #4A4C55;
+}
+
+a {
+  text-decoration: none;
+}
+
+/* Custom design below! */
+.banner {
+  background-image: url("https://www.forest-hill.fr/images/Activity/1/0/2/173/images/activity/1200x474-yoga-hatha.jpg");
+  background-size: cover;
+  opacity: 0.95;
+  background-position: center;
+  padding: 200px 0;
+  color: white;
+  text-align: center;
+}
+.banner h1 {
+  text-shadow: 1px 1px 1px #4A4C55;
+  font-size: 40px;
+}
+
+.banner p {
+  margin: 45px;
+  font-size: 20px;
+}
+
+.btn {
+  width: 220px;
+  height: 150px;
+  background-color: #4A4C55;
+  color: #21d0e0;
+  text-decoration: none;
+  padding: 12px 25px 12px 25px;
+  border-radius: 15px;
+  box-shadow: 1px 1px 1px #4A4C55;
+}
+
+.btn:hover {
+  background-color: white;
+  color: #21d0e0;
+  box-shadow: 1px 1px 1px #4A4C55;
+}
+
+
+
+.card img {
+  height: 200px;
+  width: 250px;
+}
+
+.cards {
+    display: flex;
+    justify-content: space-between;
+    margin: 50px;
+}
+
+.card {
+    width: 300px;
+    border-radius: 3px;
+    box-shadow: 0 0 5px rgb(230 230 230);
+    text-align: center;
+    padding: 10px;
+    border: 1px solid rgb(230,230,230);
+}
+
+.footer {
+    text-align: center;
+    padding: 80px;
+    background-color: #4A4C55;
+    color: #c9d9db;
+}
+.footer a {
+  color: #21d0e0;
+  font-size: 30px;
+  margin: 10px;
+}
+.footer a:hover{
+  color: #c9d9db;
+}
